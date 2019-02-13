@@ -1,0 +1,31 @@
+API - Application Programming Interface 
+
+REST - Representational State Transfe 
+
+Application -  i.e Youtube 
+
+Interface - endpoints to search youtube from code 
+
+Examples of API's - Uber , Twitter , Google  Youtube 
+
+Uber app , searching for ubers in our area , we can right code and search for different endpoints and users in our programming code and show that in our websites
+and give use back data in JSON format 
+
+Respresentational State Transfer 
+
+-Architectual style of the web 
+-A standard / set of guidelines by which we can structure & create API's
+-REST API's have identifiable properties 
+
+They make use of Http Methods 
+
+- Get  - Used to retrieve data from the server 
+- Post - Used to send data to the server 
+- Put   - Used to update data 
+- Delete - Used to delete data 
+
+They make use of HTTP STATUS CODES 
+
+200 MEAKS OK 
+404 MEANS RESOURCE NOT FOUND 
+505 MEANS SERVER ERROR
