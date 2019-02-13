@@ -67,3 +67,11 @@ update and existing stock
 Delete a stock 
  - delete stock 
        http://www.stocks.com/api/stock/id
+       
+       
+using express , you can use without express but using express makes it easier
+
+--save // make it so we dont have to keep installing express in developing
+        saving to dependencies
+        
+use const to require your dependecies 
