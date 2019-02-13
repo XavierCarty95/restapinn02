@@ -29,3 +29,15 @@ They make use of HTTP STATUS CODES
 200 MEAKS OK 
 404 MEANS RESOURCE NOT FOUND 
 505 MEANS SERVER ERROR
+
+Npm init to get you node package module 
+- using express for our api 
+- in express whe send data from the website 
+- and direct the data
+
+Http methods telling the server what type of request we are making
+-GET 
+-POST
+-PUT 
+-DELETE
+
