@@ -53,3 +53,17 @@ CRUD
   - DELETE request 
 
 
+read / retrieving the stocks 
+    - GET request to http://www.stocks.com/api/stock
+    
+create a new stock 
+
+   - POST request to http://www.stocks.com/api/stock
+   
+update and existing stock 
+  
+    - Put request http://www.stocks.com/api/stock/id
+    
+Delete a stock 
+ - delete stock 
+       http://www.stocks.com/api/stock/id
