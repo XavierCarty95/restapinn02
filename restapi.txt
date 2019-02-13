@@ -41,3 +41,15 @@ Http methods telling the server what type of request we are making
 -PUT 
 -DELETE
 
+CRUD 
+
+- Create a new stock 
+   - Post Request
+- Retreive (Reading) 
+   - Get Request 
+- Update 
+    - Put request
+- Delete 
+  - DELETE request 
+
+
