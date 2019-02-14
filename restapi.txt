@@ -82,3 +82,5 @@ when making a request two parameters a request  and a response
 
 
 models.exports to use module in other files
+
+--- postman to test database and see if your data in the api is working. 
