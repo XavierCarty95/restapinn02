@@ -75,3 +75,10 @@ using express , you can use without express but using express makes it easier
         saving to dependencies
         
 use const to require your dependecies 
+
+when making a request two parameters a request  and a response
+
+-dev not necessary for our program to run but neccessar for our development tools
+
+
+models.exports to use module in other files
