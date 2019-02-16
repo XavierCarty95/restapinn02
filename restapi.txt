@@ -82,3 +82,11 @@ when making a request two parameters a request  and a response
 
 
 models.exports to use module in other files
+
+--- postman to test database and see if your data in the api is working. 
+
+middle ware fired between request coming in between response. 
+
+when you use body parser it s after the request it is going to take it and then parse the date the the route is going to handle to daa 
+
+order is very important
