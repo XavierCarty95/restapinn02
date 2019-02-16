@@ -94,3 +94,28 @@ when you use body parser it s after the request it is going to take it and then 
 
 order is very important
 >>>>>>> version7
+
+
+models way to represent collection in mongdb 
+
+user model to represent a collection of users 
+
+stock model to collect model of stocks 
+
+schemes define the structure of data objects 
+
+
+{
+
+name: String 
+price : integer 
+availabilty : string
+
+
+}
+
+Mongoose 
+
+-Adds a layer of methods to easily save t, edit , retrieve and delete data from mongoddb 
+
+- Allows us to create our Models and Schemas easily 
