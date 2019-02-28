@@ -17,7 +17,13 @@ app.use(bodyParser.json())
 app.use("/api", require("./routes/api"));
 
 
+// error handling middleware 
 
+app.use(function(error,req,res,next){
+    console.log(error)
+    res.send({error:error.message})
+    
+})
 //listen for request 
 
 app.listen(process.env.PORT , process.env.IP, function(){

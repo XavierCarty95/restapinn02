@@ -32,4 +32,5 @@ const NinjaSchema = new Schema({
 });
 
 const Ninja = mongoose.model('name', NinjaSchema)
+
 module.exports = Ninja;

@@ -3,14 +3,14 @@ const router = express.Router();
 const Stock = require("../models/stocks")
 
 //get list of stocks from database 
-router.get('/stocks', function(req,res){
+router.get('/stocks', function(req,res,next){
     res.send({type : 'GET'})
 })
 
-router.post('/stocks', function(req,res){
+router.post('/stocks', function(req,res,next){
     Stock.create(req.body).then(function(ninja){
         res.send(ninja);
-    })
+    }).catch(next)
     
     res.send({
         
@@ -20,11 +20,11 @@ router.post('/stocks', function(req,res){
     })
 })
 
-router.put('/stocks/:id', function(req,res){
+router.put('/stocks/:id', function(req,res,next){
     res.send({type : 'PUT'})
 })
 
-router.delete('/stocks:id', function(req,res){
+router.delete('/stocks:id', function(req,res,next){
     res.send({type : 'DELETE'})
 })
 
