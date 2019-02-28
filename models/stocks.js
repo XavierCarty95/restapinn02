@@ -13,7 +13,7 @@ const StockSchema = new Schema({
     }, 
     
     price: { 
-        type: Number
+        type: String
         
     }, 
     

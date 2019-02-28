@@ -1,5 +1,6 @@
 const express = require("express")
 const router = express.Router();
+const Stock = require("../models/stocks")
 
 //get list of stocks from database 
 router.get('/stocks', function(req,res){
@@ -7,7 +8,10 @@ router.get('/stocks', function(req,res){
 })
 
 router.post('/stocks', function(req,res){
-    console.log(req.body)
+    Stock.create(req.body).then(function(ninja){
+        res.send(ninja);
+    })
+    
     res.send({
         
         type : 'POST', 
